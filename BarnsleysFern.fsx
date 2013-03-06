@@ -1,11 +1,13 @@
-﻿#r "PresentationCore.dll";;
+﻿// Implement Barnsley's Fern using set of four affine (preserves distance and ratios between points) transformations
+// challenge is to avoid using the 'mutable' keyword thus keeping a more pure functional style
+// some wpf code taken from book 'F# for Scientists by Jon Harrop'.
+#r "PresentationCore.dll";;
 #r "PresentationFramework.dll";;
 #r "WindowsBase.dll";;
 #r "System.Xaml.dll";;
 open System.Windows
 open System.Windows.Media
 open System
-//#time
 type config = {transformConfig : ((double list * double) list); iterations : int}
 let start = (0.0, 0.0)
 let barnsleyfern = {
