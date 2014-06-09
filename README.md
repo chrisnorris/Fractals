@@ -4,6 +4,5 @@ FRACTALS
 Fractals from F# scripts - with some WPF.
 
 Barnsleys Fern:-
-[[Images/Barnsleys_FernPNG.PNG]]
-
+![alt-tag](https://github.com/chrisnorris/fractals/raw/master/Images/Barnsleys_FernPNG.PNG)
 
