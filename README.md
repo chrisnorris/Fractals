@@ -1,7 +1,7 @@
-F#actals
+Fractals
 ========
 
-Fractals from F# scripts - with some WPF.
+Fractals from F#.
 
 Sierpinski Chaos Game:-
 
